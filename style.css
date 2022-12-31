@@ -237,6 +237,7 @@ iframe {
 	align-items: center;
 	margin: 20px;
 	padding: 20px;
+	background-image: linear-gradient(90deg, #ba81cf, #6886d4);
 }
 
 .domain i {
