@@ -227,6 +227,11 @@ iframe {
 	transition-duration: 0.4s;
 }
 
+.past-ps {
+	text-decoration: none;
+	font-size: 30px;
+}
+
 .domain {
 	min-width: 300px;
 	height: 100px;
