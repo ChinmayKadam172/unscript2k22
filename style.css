@@ -282,6 +282,10 @@ iframe {
 	flex-direction: column;
 }
 
+.klear {
+	background-color: white;
+}
+
 .sponsor-list img {
 	width: 20%;
 	margin: 20px;
