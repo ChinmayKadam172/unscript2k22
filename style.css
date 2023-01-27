@@ -140,7 +140,7 @@
 }
 
 .klearstack {
-	background-color: rgba(43, 45, 66, 1);
+	/* background-color: rgba(43, 45, 66, 1); */
 	color: white;
 	font-weight: bold;
 	font-size: 25px;
@@ -149,7 +149,7 @@
 	border-radius: 25px;
 }
 .klearstack img {
-	width: 40px;
+	width: 200px;
 	align-self: center;
 }
 
@@ -280,10 +280,6 @@ iframe {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-}
-
-.klear {
-	background-color: white;
 }
 
 .sponsor-list img {
@@ -459,6 +455,81 @@ iframe {
 		#ffffff 80%,
 		#dedeff 84%,
 		#555564
+	);
+}
+
+.wrap-sp .diamond {
+	font-size: 2rem;
+	width: fit-content;
+	padding: 20px 40px;
+
+	color: rgba(0, 0, 0, 0.72);
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 #ffffff;
+	box-shadow: 2px 2px 0.5em rgba(122, 122, 122, 0.55),
+		inset 1px 1px 0 rgba(255, 255, 255, 0.9),
+		inset -1px -1px 0 rgba(0, 0, 0, 0.5);
+	border: 1px solid #cacade;
+	background: -moz-linear-gradient(
+		-72deg,
+		#87878f,
+		#797e86 16%,
+		#808097 21%,
+		#acadcf 24%,
+		#8383da 27%,
+		#6e6e8f 36%,
+		#4e4c63 45%,
+		#857ab2 60%,
+		#5f5f9c 72%,
+		#5d549a 80%,
+		#37378d 84%,
+		#6f6fe4
+	);
+	background: -webkit-linear-gradient(
+		-72deg,
+		#51517d,
+		#645b9c 16%,
+		#4a4a93 21%,
+		#58507d 24%,
+		#6f6fd4 27%,
+		#515188 36%,
+		#6d5786 45%,
+		#5e508e 60%,
+		#474276 72%,
+		#473d84 80%,
+		#3131a7 84%,
+		#4e4e9a
+	);
+	background: -o-linear-gradient(
+		-72deg,
+		#2a2a69,
+		#382e77 16%,
+		#30307e 21%,
+		#4a3f85 24%,
+		#4d4d9a 27%,
+		#43437f 36%,
+		#453f81 45%,
+		#483d79 60%,
+		#3c3c8a 72%,
+		#413380 80%,
+		#39398f 84%,
+		#4f4f92
+	);
+	background: linear-gradient(
+		-72deg,
+		#e2e2ec,
+		#ffffff 16%,
+		#dedeff 21%,
+		#ffffff 24%,
+		#e6e6f1 27%,
+		#dedeff 36%,
+		#ffffff 45%,
+		#ffffff 60%,
+		#6f6f71 72%,
+		#ffffff 80%,
+		#dedeff 84%,
+		#68686d
 	);
 }
 
